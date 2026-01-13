@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .navbar-brand img {
+        height: 30px;
+      }
+      .feature-icon {
+        border-radius: 10px;
+      }
+      .feature-icon img {
+        height: 50px;
+        padding: 10px;
+      }
+      
+      .footer {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      .firstsection {
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+      .carousel-item img{
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex align-items-center">
+
+      <a class="navbar-brand fw-bold d-flex align-items-center me-4" href="#">
+        <img src="box-seam.svg" width="28" class="me-2">
+        Move It
+      </a>
+
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item mx-2">
+          <a class="nav-link fw-semibold" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link fw-semibold" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown mx-2">
+          <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Local</a></li>
+            <li><a class="dropdown-item" href="#">Countrywide</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Postcode">
+      <button class="btn btn-outline-success" type="submit">Check</button>
+    </form>
+  </div>
+</nav>
+
+    <div class="firstsection px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">Move With Joy</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Welcome to our website, where we are on a mission to provide
+          exceptional moving services to customers in the US. As a startup, we
+          believe that moving doesn't have to be stressful or complicated, and
+          we are passionate about making the process as seamless and enjoyable
+          as possible. Get a Quote
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg px-4 me-sm-3"
+            fdprocessedid="bcu03k"
+          >
+            Get a Quote
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-secondary btn-lg px-4"
+            fdprocessedid="d1ifkf"
+          >
+            Contact US
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh">
+        <div class="container px-5">
+          <img
+            src="moving-van.jpg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section class="py-5 border-top">
+      <div class="container">
+
+        <h2 class="fw-bold text-center mb-5">Why Move With Us?</h2>
+
+        <div class="row g-4">
+          <div class="col-md-4 text-center">
+            <div class="mb-3">
+              <img src="briefcase.svg" width="55" class="p-3 bg-primary bg-opacity-5 rounded-4">
+            </div>
+            <h4 class="fw-bold">Professional</h4>
+            <p>
+              Our team of professional movers are trained to prioritize efficiency, 
+              organization, and attention to detail. We take extra care to ensure 
+              everything is packed and transported safely.
+            </p>
+            <a href="#">Get a quote »</a>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="mb-3">
+              <img src="bus-front.svg" width="55" class="p-3 bg-primary bg-opacity-5 rounded-4">
+            </div>
+            <h4 class="fw-bold">Countrywide</h4>
+            <p>
+              We offer a range of services to suit your individual needs, whether 
+              you're moving locally or across the country—always with transparent pricing.
+            </p>
+            <a href="#">Get a quote »</a>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="mb-3">
+              <img src="chat-square-heart.svg" width="55" class="p-3 bg-primary bg-opacity-5 rounded-4">
+            </div>
+            <h4 class="fw-bold">Personal Touch</h4>
+            <p>
+              We believe moving should be an exciting, positive experience, not stressful. 
+              Our personalized service ensures you feel supported every step of the way.
+            </p>
+            <a href="#">Get a quote »</a>
+          </div>
+
+        </div>
+      </div>
+
+    <div
+      id="myCarousel"
+      class="carousel slide mb-6 pointer-event"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+          aria-current="true"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class=""
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class=""
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="couple.jpg">
+          
+        </div>
+        <div class="carousel-item">
+          <img src="family.jpg">
+    
+        </div>
+        <div class="carousel-item">
+         <img src="dog.jpg">
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="container">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary">© 2025</p>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script
+    rc="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  </html
